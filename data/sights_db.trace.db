@@ -1,0 +1,33 @@
+2023-09-06 13:42:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 13:44:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 13:58:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 13:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 14:00:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 14:06:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS SIGHTS ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 14:07:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS sight ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS sight ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 14:08:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS sight ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS sight ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 14:09:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS sight ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS sight ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR NOT NULL, description VARCHAR, address VARCHAR, lat FLOAT NOT NULL, lng FLOAT NOT NULL, rating INTEGER NOT NULL, ) [42001-214]
+2023-09-06 14:13:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "sight" not found (candidates are: "SIGHT"); SQL statement:
+SELECT "sight"."ID" AS "ID", "sight"."LAT" AS "LAT", "sight"."LNG" AS "LNG", "sight"."TITLE" AS "TITLE", "sight"."RATING" AS "RATING", "sight"."ADDRESS" AS "ADDRESS", "sight"."DESCRIPTION" AS "DESCRIPTION" FROM "sight" WHERE "sight"."ID" = ? [42103-214]
+2023-09-07 12:18:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM sight INSERT [*]INTO sight (title, description, address, lat, lng, rating) VALUES ('Upper Town', 'The upper town is full of charm and it gathers a lot of Zagreb interest points such as the Dolac market, St Mark Church, the museum of broken relationships, Kamenita Vrata (Stone gate), and the cathedral (Kaptol).', '10 000, Zagreb', 45.8147423, 15.9716824, 3)"; SQL statement:
+DELETE FROM sight INSERT INTO sight (title, description, address, lat, lng, rating) VALUES ('Upper Town', 'The upper town is full of charm and it gathers a lot of Zagreb interest points such as the Dolac market, St Mark Church, the museum of broken relationships, Kamenita Vrata (Stone gate), and the cathedral (Kaptol).', '10 000, Zagreb', 45.8147423, 15.9716824, 3) [42000-214]
