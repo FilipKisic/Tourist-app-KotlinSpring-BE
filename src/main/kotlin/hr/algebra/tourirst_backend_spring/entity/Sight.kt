@@ -6,7 +6,7 @@ import org.springframework.data.relational.core.mapping.Table
 @Table("SIGHT")
 data class Sight(
         @Id
-        val id: String?,
+        val id: Long?,
         val title: String,
         val description: String?,
         val address: String?,

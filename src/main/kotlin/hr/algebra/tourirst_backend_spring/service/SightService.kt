@@ -9,11 +9,11 @@ import java.util.Optional
 class SightService(val repository: SightRepository) {
     fun getAll(): List<Sight> = repository.findAll().toList()
 
-    fun getById(id: String): Optional<Sight> = repository.findById(id)
+    fun getById(id: Long): Optional<Sight> = repository.findById(id)
 
     fun save(sight: Sight) = repository.save(sight)
 
     fun delete(sight: Sight) = repository.delete(sight)
 
-    fun deleteById(id: String) = repository.deleteById(id)
+    fun deleteById(id: Long) = repository.deleteById(id)
 }

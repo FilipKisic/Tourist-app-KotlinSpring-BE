@@ -17,7 +17,7 @@ class SightController(val sightService: SightService) {
     fun getAll(): List<Sight> = sightService.getAll()
 
     @GetMapping("/{id}")
-    fun getById(@PathVariable id: String) = sightService.getById(id)
+    fun getById(@PathVariable id: Long) = sightService.getById(id)
 
     @PostMapping("/save")
     fun save(@RequestBody sight: Sight) = sightService.save(sight)
@@ -26,5 +26,5 @@ class SightController(val sightService: SightService) {
     fun delete(@RequestBody sight: Sight) = sightService.delete(sight)
 
     @DeleteMapping("/{id}")
-    fun deleteById(@PathVariable id: String) = sightService.deleteById(id)
+    fun deleteById(@PathVariable id: Long) = sightService.deleteById(id)
 }

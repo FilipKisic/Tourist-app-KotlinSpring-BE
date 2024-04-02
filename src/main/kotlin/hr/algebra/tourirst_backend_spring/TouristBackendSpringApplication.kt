@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TourirstBackendSpringApplication
+class TouristBackendSpringApplication
 
 fun main(args: Array<String>) {
-    runApplication<TourirstBackendSpringApplication>(*args)
+    runApplication<TouristBackendSpringApplication>(*args)
 }
