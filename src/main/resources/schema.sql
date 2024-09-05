@@ -6,5 +6,6 @@ CREATE TABLE sight (
     address VARCHAR,
     lat     FLOAT   NOT NULL,
     lng     FLOAT   NOT NULL,
-    rating  INTEGER NOT NULL
+    rating  INTEGER NOT NULL,
+    image_url VARCHAR
 );

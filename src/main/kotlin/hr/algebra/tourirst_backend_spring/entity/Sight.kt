@@ -12,5 +12,6 @@ data class Sight(
         val address: String?,
         val lat: Double,
         val lng: Double,
-        val rating: Int
+        val rating: Int,
+        val imageUrl: String?
 )
